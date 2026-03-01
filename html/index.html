@@ -3,53 +3,52 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>hekki.info</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
-  <div class="site-wrapper">
-
-    <div class="site-wrapper-inner">
-
-      <div class="container">
-
-        <div class="masthead clearfix">
-          <div class="container inner">
-            <h3 class="masthead-brand">hekki.info</h3>
-            <nav>
-              <ul class="nav masthead-nav">
-                <!--<li class="active"><a href="#">Home</a</li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Contact</a></li>-->
-              </ul>
-            </nav>
-          </div>
-        </div>
-
+  <div class="page-bg">
+    <main class="profile-card">
+      <header class="card-header">
+        <p class="site-label">hekki.info</p>
         <h1>about me</h1>
+        <p class="subtitle">links and contact</p>
+      </header>
 
-        <div class="inner cover">
-          <p class="lead">{ BlueSky -> <a href="https://bsky.app/profile/hekki.bsky.social"
-              target="_blank">@hekki.bsky.social</a> }
-          </p>
-          <p class="lead">{ GitHub -> <a href="https://github.com/hekki" target="_blank">hekki</a> }</p>
-          <p class="lead">{ Blog -> <a href="https://hekki.hateblo.jp/" target="_blank">hekiblo</a> }</p>
-          <p class="lead">{ SlideShare -> <a href="https://www.slideshare.net/hirokiito969952"
-              target="_blank">hirokiito969952</a> }</p>
-          <p class="lead">{ Mail -> contact[@]hekki.info }</p>
-        </div>
-
-      </div>
-
-    </div>
-
+      <ul class="social-list">
+        <li class="social-item">
+          <span class="social-name">BlueSky</span>
+          <a href="https://bsky.app/profile/hekki.bsky.social" target="_blank" rel="noopener noreferrer">
+            @hekki.bsky.social
+          </a>
+        </li>
+        <li class="social-item">
+          <span class="social-name">GitHub</span>
+          <a href="https://github.com/hekki" target="_blank" rel="noopener noreferrer">hekki</a>
+        </li>
+        <li class="social-item">
+          <span class="social-name">Blog</span>
+          <a href="https://hekki.hateblo.jp/" target="_blank" rel="noopener noreferrer">hekiblo</a>
+        </li>
+        <li class="social-item">
+          <span class="social-name">SlideShare</span>
+          <a href="https://www.slideshare.net/hirokiito969952" target="_blank" rel="noopener noreferrer">
+            hirokiito969952
+          </a>
+        </li>
+        <li class="social-item">
+          <span class="social-name">Mail</span> contact[@]hekki.info
+        </li>
+      </ul>
+    </main>
   </div>
-  <!-- partial -->
-
 </body>
 
 </html>
